@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cálculo de notas</h1>
+    <hr>
+    <div class="container">
+        <div class="containerInputs">
+            <input min="1" max="5" id="note1" type="number" placeholder="Nota 1" required>
+            <input min="1" max="5" id="note2" type="number" placeholder="Nota 2" required>
+            <input min="1" max="5" id="note3" type="number" placeholder="Nota 3" required>
+        </div>
+        <p id="result">Resultado</p>
+        <div class="containerText">
+            <p id="recover">¿Cuánto falta para recuperar?</p>
+            <p id="win">¿Cuánto falta para ganar?</p>
+            <p id="honor">¿Cuánto falta para ganar con honores?</p>
+
+            <button id="calculate">Calculate</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
